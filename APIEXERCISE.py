@@ -77,6 +77,11 @@ for media_file in media_files:
     if counter <200:
         counter = counter +1 
         location = '/Users/apapadak/Desktop/EC500' + str(counter) + '.jpg'
+        #there was a different directory here on a different user's name
+        #the reason is because when I would compile this code on my lap top, it would have said that 
+        #the google cloud vision library was not installed, even though I have authenticated my API and had downloaded any library needed
+        #in order to solve this issue, I just wrote my code using my credentials on another student's lap top
+        #this is why there was a different directory. 
     #if (counter < 10):
         wget.download(media_file, location)
 

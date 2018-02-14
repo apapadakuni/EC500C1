@@ -76,7 +76,7 @@ counter = -1;
 for media_file in media_files:
     if counter <200:
         counter = counter +1 
-        location = '/Users/borishuang/Desktop/' + str(counter) + '.jpg'
+        location = '/Users/apapadak/Desktop/EC500' + str(counter) + '.jpg'
     #if (counter < 10):
         wget.download(media_file, location)
 

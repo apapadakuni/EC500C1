@@ -1,5 +1,5 @@
 from flask import Flask
-from agonzagaAPIEXERCISETESTER import module
+from agonzaga-APIEXERCISE-TESTER import module
 
 
 #Running on http://127.0.0.1:5000/
